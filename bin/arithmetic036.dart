@@ -1,4 +1,9 @@
 // Create function func with arguments
 // the task condition is in the Readme file
-
-void main() {}
+import 'dart:math';
+num T(int a, int b){
+  return(2*pow(a,b));
+}
+void main() {
+  print (T(3,2));
+}
